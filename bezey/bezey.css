@@ -1,13 +1,26 @@
 body {
-background-color:gray;
+background-color:black;
 }
 
 p {
     text-align: center;
-    color: rgb(208, 23, 13);
+    color: rgb(64, 183, 32);
 
 }
 
-:hover {
-    color: greenyellow; 
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: violet;
+}
+
+a:visited{
+    color:yellow;
+}
+
+mark {
+    color: rgb(25, 46, 207);
+    background-color: green;
 }
