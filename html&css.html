@@ -110,7 +110,51 @@
 </p>
 <hr>
 
-<h3 style="border:6px solid green;">CSS</h3>
+<h3 style="border:6px solid green; text-align: center;">CSS</h3>
+
+<p style="text-align: left; color: black;">CSS can be written in 3 ways:
+<ol>
+    <li>Inline</li>
+    <li>Internal</li>
+    <li>External</li>
+</ol>
+
+<p>Inline is written inline of the codes. Look comment for example(CTRL+U)
+    <!-- <p style="color: green">This text's style is written in the code</p> -->
+</p>
+
+<p>Internal CSS can be used for single HTML page. Internal CSS is written between "head" section with Style element.
+<pre style="color: rgb(53, 143, 33); text-align: center;">
+    Look comment for example:</pre>
+<!-- 
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
+The following example sets the text color of ALL the <h1> elements (on that page) to blue, 
+and the text color of ALL the <p> elements to red. In addition, 
+the page will be displayed with a "powderblue" background color: 
+ -->
+
+</p>
+
+<p>External CSS is written in another sheet and must not contain any html element and must be saved with .css extention<br>
+    To use an external style sheet, add a link to it in the "head" section of each HTML page<br>
+    With an external style sheet, you can change the look of an entire web site, by changing one file!<br>
+    This page is using makeup.css
+</p>
 
 </body>
 
